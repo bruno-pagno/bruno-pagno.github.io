@@ -8,8 +8,8 @@ $(document).ready(function(){
 
     // Typed Js Setup
     var typed = new Typed(".typed", {
-        strings: ["Information Systems Student at University of São Paulo (USP)", "Programmer",
-        "Technology Enthusiast"],
+        strings: ["Estudante de Sistemas de Informação na Universidade de São Paulo (USP)", "Programador",
+        "Entusiasta de tecnologias"],
         typeSpeed: 50,
         loop: true,
         startDelay: 500,
@@ -20,7 +20,6 @@ $(document).ready(function(){
     // Owl Carousel Setup
     $('.owl-carousel').owlCarousel({
         loop:true,
-        autoPlay:true,
         itens: 4,
         responsive:{
             0:{
@@ -36,7 +35,7 @@ $(document).ready(function(){
                 items:4
             }
         }
-    });             
+    })
 
     var skillsSectionOffset = $(".skillsSection").offset().top;
     
@@ -57,7 +56,10 @@ $(document).ready(function(){
         }
     });
 
+
     $("[data-fancybox]").fancybox();
+
+
     $(".items").isotope({
         filter: "*",
         animationOptions : {duration: 1500, easing: "linear",queue: false}

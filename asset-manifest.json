@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.c2f8dc55.css",
-    "main.js": "/static/js/main.15951692.js",
+    "main.css": "/static/css/main.80a8c894.css",
+    "main.js": "/static/js/main.32db784d.js",
     "static/js/787.8bce6e0d.chunk.js": "/static/js/787.8bce6e0d.chunk.js",
     "static/media/nature-power-and-respect-cover.jpeg": "/static/media/nature-power-and-respect-cover.68f389c632307a544bbb.jpeg",
+    "static/media/about.jpg": "/static/media/about.5239e6b18201b899e5fb.jpg",
     "static/media/backgroud.jpeg": "/static/media/backgroud.80ea32f973105dd9e917.jpeg",
     "static/media/profile.jpeg": "/static/media/profile.fe213ddb35e1cdfa1ce1.jpeg",
     "index.html": "/index.html",
-    "main.c2f8dc55.css.map": "/static/css/main.c2f8dc55.css.map",
-    "main.15951692.js.map": "/static/js/main.15951692.js.map",
+    "main.80a8c894.css.map": "/static/css/main.80a8c894.css.map",
+    "main.32db784d.js.map": "/static/js/main.32db784d.js.map",
     "787.8bce6e0d.chunk.js.map": "/static/js/787.8bce6e0d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2f8dc55.css",
-    "static/js/main.15951692.js"
+    "static/css/main.80a8c894.css",
+    "static/js/main.32db784d.js"
   ]
 }

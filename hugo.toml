@@ -1,0 +1,51 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = "Bruno Pagno"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[params]
+  env = "production"
+  description = "Notes on software engineering, AI-assisted development, and building things."
+  DateFormat = "January 2, 2006"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowToc = true
+  comments = false
+
+  [params.homeInfoParams]
+    Title = "Hi, I'm Bruno 👋"
+    Content = "I write about software engineering, AI-assisted development workflows, and things I'm building."
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "search"
+  name = "Search"
+  url = "/search/"
+  weight = 30
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    noClasses = false

@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://bruno-pagno.github.io/'
 locale = 'en-us'
 title = "Bruno Pagno"
 theme = "PaperMod"
@@ -10,6 +10,8 @@ buildExpired = false
 
 [params]
   env = "production"
+  defaultTheme = "dark"
+  disableThemeToggle = false
   description = "Notes on software engineering, AI-assisted development, and building things."
   DateFormat = "January 2, 2006"
   ShowReadingTime = true
@@ -22,7 +24,7 @@ buildExpired = false
   comments = false
 
   [params.homeInfoParams]
-    Title = "Hi, I'm Bruno 👋"
+    Title = "Bruno Pagno"
     Content = "I write about software engineering, AI-assisted development workflows, and things I'm building."
 
 [[menu.main]]
@@ -48,4 +50,5 @@ buildExpired = false
 
 [markup]
   [markup.highlight]
-    noClasses = false
+    style = "monokai"
+    noClasses = true

@@ -1,0 +1,32 @@
+:root[data-theme="dark"] {
+    --theme: rgb(39, 40, 34);
+    --entry: rgb(45, 46, 40);
+    --primary: rgb(248, 248, 242);
+    --secondary: rgb(160, 160, 150);
+    --tertiary: rgb(73, 72, 62);
+    --content: rgb(230, 230, 220);
+    --code-block-bg: rgb(39, 40, 34);
+    --code-bg: rgb(45, 46, 40);
+    --border: rgb(73, 72, 62);
+    color-scheme: dark;
+}
+
+:root[data-theme="dark"] a {
+    color: rgb(166, 226, 46);
+}
+
+:root[data-theme="dark"] .post-title,
+:root[data-theme="dark"] .entry-header h2 {
+    color: rgb(166, 226, 46);
+}
+
+:root[data-theme="dark"] .post-tags a,
+:root[data-theme="dark"] .tags a {
+    background: rgba(249, 38, 114, 0.15);
+    color: rgb(249, 38, 114);
+    border-color: rgba(249, 38, 114, 0.3);
+}
+
+:root[data-theme="dark"] button#theme-toggle svg {
+    fill: rgb(230, 219, 116);
+}

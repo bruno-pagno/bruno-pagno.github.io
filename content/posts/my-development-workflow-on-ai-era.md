@@ -1,6 +1,6 @@
 +++
 date = '2026-09-22T18:35:32-03:00'
-draft = false
+draft = true
 title = 'My Development Workflow in the AI Era'
 tags = ['ai', 'workflow', 'engineering']
 +++

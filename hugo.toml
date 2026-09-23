@@ -10,7 +10,7 @@ buildExpired = false
 
 [params]
   env = "production"
-  defaultTheme = "dark"
+  defaultTheme = "light"
   disableThemeToggle = false
   description = "Notes on software engineering, AI-assisted development, and building things."
   DateFormat = "January 2, 2006"
@@ -26,6 +26,14 @@ buildExpired = false
   [params.homeInfoParams]
     Title = "Bruno Pagno"
     Content = "I write about software engineering, AI-assisted development workflows, and things I'm building."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/bruno-pagno"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/bruno-pagno"
 
 [[menu.main]]
   identifier = "posts"

@@ -2,7 +2,6 @@
 date = '2026-09-22T18:35:32-03:00'
 title = 'My Development Workflow in the AI Era'
 summary = "In the AI era, the hardest part of development is no longer writing code — it's planning and reviewing what AI generates."
-tags = ['ai', 'workflow', 'engineering']
 
 [cover]
   image = 'cover.jpg'

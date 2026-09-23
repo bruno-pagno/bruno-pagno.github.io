@@ -13,8 +13,8 @@ buildExpired = false
   defaultTheme = "light"
   disableThemeToggle = false
   description = "Notes on software engineering, AI-assisted development, and building things."
-  DateFormat = "January 2, 2006"
-  ShowReadingTime = true
+  DateFormat = "Jan 2, 2006"
+  ShowReadingTime = false
   ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
@@ -25,7 +25,7 @@ buildExpired = false
 
   [params.homeInfoParams]
     Title = "Bruno Pagno"
-    Content = "I write about software engineering, AI-assisted development workflows, and things I'm building."
+    Content = "I write about software engineering, AI and things I'm building."
 
   [[params.socialIcons]]
     name = "github"
@@ -40,18 +40,6 @@ buildExpired = false
   name = "Posts"
   url = "/posts/"
   weight = 10
-
-[[menu.main]]
-  identifier = "tags"
-  name = "Tags"
-  url = "/tags/"
-  weight = 20
-
-[[menu.main]]
-  identifier = "search"
-  name = "Search"
-  url = "/search/"
-  weight = 30
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

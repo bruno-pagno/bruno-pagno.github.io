@@ -1,0 +1,53 @@
+/* Minimal-look overrides for PaperMod. */
+
+/* 1. Remove the fixed empty space above the home intro. */
+.first-entry {
+    min-height: unset;
+    margin: 48px 0 32px 0;
+}
+
+/* 2. Hide the duplicate "Bruno Pagno" heading on the home page;
+   the name already appears in the header, so only the bio line shows. */
+.home-info .entry-header {
+    display: none;
+}
+
+/* 3. Simplified post entries: keep the background tint (distinct from the
+   page background) but drop the border and hover lift for a flatter look. */
+.post-entry {
+    border: none;
+    transition: none;
+}
+
+.post-entry:hover,
+.post-entry:focus-within {
+    transform: none;
+}
+
+.entry-header h2 {
+    font-size: 22px;
+}
+
+/* 4. Line up the header with the content column width. */
+.header-nav {
+    max-width: calc(var(--main-width) + var(--gap) * 2);
+}
+
+/* 6. Center the GitHub/LinkedIn nav icons on the text baseline.
+   Theme rule ".header-nav a { display: block }" has higher specificity
+   (class + tag) than a single-class selector, so it always won and
+   silently blocked display:flex here, leaving align-items with no
+   effect. Matching "a.header-social-icon" ties that specificity and
+   wins on source order (this file loads last), so flex actually applies. */
+a.header-social-icon {
+    display: flex;
+    align-items: center;
+    height: var(--header-height);
+    color: var(--primary);
+}
+
+.header-social-icon svg {
+    display: block;
+    height: 20px;
+    width: 20px;
+}
